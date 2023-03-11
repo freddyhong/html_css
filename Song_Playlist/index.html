@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="file:///Users/freddyhong/Documents/Programmer%20Stuff/html_css/Song_Playlist/CSS_Files/sytles.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/512/4365/4365933.png"
+    />
+    <title>Home - Freddy's Portforlio</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="this is freddy's website" />
+  </head>
+  <body>
+    <div class="playlist screen">
+      <header class="nav_bar">
+        <i class="fas fa-arrow-left"></i>
+        <i class="fas fa-search"></i>
+      </header>
+      <div class="playlist_info">
+        <div class="playlist_info_photo">
+          <img
+            id="playlist_photo"
+            src="http://image.genie.co.kr/Y/IMAGE/IMG_ARTIST/042/307/533/42307533_1637039763609_26_600x600.JPG"
+          />
+        </div>
+        <span class="playlist_info_title">Younha</span>
+        <span class="playlist_info_genre">K-Pop, Rock, R&B</span>
+      </div>
+      <div class="btn">
+        <button class="btn_shuffle">Shuffle</button>
+        <button class="btn_heart"><i class="fas fa-heart"></i>76K</button>
+      </div>
+
+      <div class="playlist">
+        <button class="playlist_song">
+          <img
+            class="playlist_song_photo"
+            src="https://image.bugsm.co.kr/album/images/500/40675/4067509.jpg"
+          />
+          <div class="playlist_song_info">
+            <span class="playlist_song_info_album">Younha</span>
+            <span class="playlist_song_info_title">Oort Cloud</span>
+          </div>
+          <i class="fas fa-ellipsis-v"></i>
+        </button>
+        <button id="first_song" class="playlist_song">
+          <img
+            class="playlist_song_photo"
+            src="https://image.bugsm.co.kr/album/images/500/40734/4073469.jpg"
+          />
+          <div class="playlist_song_info">
+            <span class="playlist_song_info_album">Younha</span>
+            <span class="playlist_song_info_title">Event Horizon</span>
+          </div>
+          <i class="fas fa-ellipsis-v"></i>
+        </button>
+
+        <button class="playlist_song">
+          <img
+            class="playlist_song_photo"
+            src="https://img8.yna.co.kr/etc/inner/KR/2019/07/02/AKR20190702165600005_04_i_P4.jpg"
+          />
+          <div class="playlist_song_info">
+            <span class="playlist_song_info_album">Younha</span>
+            <span class="playlist_song_info_title">On A Rainy Day</span>
+          </div>
+          <i class="fas fa-ellipsis-v"></i>
+        </button>
+
+        <button class="playlist_song">
+          <img
+            class="playlist_song_photo"
+            src="http://www.akbobada.com/home/akbobada/archive/akbo/img/20140704111944.jpg"
+          />
+          <div class="playlist_song_info">
+            <span class="playlist_song_info_album">Younha</span>
+            <span class="playlist_song_info_title">Umbrella</span>
+          </div>
+          <i class="fas fa-ellipsis-v"></i>
+        </button>
+        <button class="playlist_song">
+          <img
+            class="playlist_song_photo"
+            src="https://image.bugsm.co.kr/album/images/500/80306/8030698.jpg"
+          />
+          <div class="playlist_song_info">
+            <span class="playlist_song_info_album">Younha</span>
+            <span class="playlist_song_info_title">Comet</span>
+          </div>
+          <i class="fas fa-ellipsis-v"></i>
+        </button>
+      </div>
+
+      <div class="control">
+        <div class="control_info">
+          <span class="control_info_singer">Younha</span>
+          <span class="control_info_title">Event Horizon</span>
+        </div>
+        <div class="control_icon">
+          <i class="fas fa-step-backward fa-sm"></i>
+          <i class="fas fa-pause fa-lg"></i>
+          <i class="fas fa-step-forward fa-sm"></i>
+        </div>
+      </div>
+    </div>
+    <div class="song screen">
+      <header class="nav_bar">
+        <i class="fas fa-arrow-left"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </header>
+      <div class="song_info">
+        <img
+          class="song_info_photo"
+          src="https://image.bugsm.co.kr/album/images/500/40734/4073469.jpg"
+        />
+        <span class="song_info_title">Event Horizon</span>
+        <span class="song_info_singer">Younha</span>
+      </div>
+      <div class="song_bar">
+        <div class="song_bar_time">
+          <span class="song_bar_time_start">1:27</span>
+          <span class="song_bar_time_end">3:58</span>
+        </div>
+        <div class="song_bar_status">
+          <div class="song_bar_status_past bar"></div>
+          <div class="song_bar_status_last bar"></div>
+          <div class="song_bar_status_current"></div>
+        </div>
+      </div>
+      <div class="song_control">
+        <i class="fas fa-sync"></i>
+        <i class="fas fa-step-backward fa fa-lg"></i>
+        <div id="play_btn"><i class="fas fa-play fa-lg"></i></div>
+        <i class="fas fa-step-forward fa fa-lg"></i>
+        <i class="fas fa-random"></i>
+      </div>
+    </div>
+  </body>
+</html>

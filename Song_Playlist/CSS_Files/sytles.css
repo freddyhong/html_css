@@ -1,0 +1,41 @@
+@import "playlist.css";
+@import "song.css";
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+html{
+  display: flex;
+  font-family: 'Nunito', sans-serif;
+  justify-content: center;
+}
+body{
+  height: 100vh;
+  width: 90vh;
+  background-color: #e6e6e6;
+  padding: 70px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_bar{
+  display: flex;
+  width: 90%;
+  margin: 30px 20px;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.screen{
+  height: 90%;
+  width: 350px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
