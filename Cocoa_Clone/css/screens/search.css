@@ -1,0 +1,119 @@
+.find_screen_icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    border-bottom: 2px solid rgba(183, 183, 183, 0.3);
+  }
+  .find_screen_icons-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height: 60px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .find_screen_icons-icon span{
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .find_screen_icons-icon:last-child i{
+    margin-bottom: 10px;
+  }
+  .recommended{
+    height: 250px;
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 2px solid rgba(183, 183, 183, 0.3);
+  }
+  .recommended_main{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .recommended_header h4,
+  .recommended_main span,
+  .open_chat_header span,
+  .open_chat_header a {
+    color: var(--gray);
+  }
+  .open_chat{
+    height: 400px;
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  .open_chat_header{
+    display: flex;
+    width: 99%;
+    justify-content: space-between;
+  }
+  .open_chat_inbox{
+    width: 100%;
+    height: 120px;
+    padding: 15px 0px;
+    border-bottom: 2px solid rgba(183, 183, 183, 0.3);
+    display: flex;
+    justify-content: space-between;
+  }
+  .open_chat_inbox_column{
+    display: flex;
+  }
+  .open_chat_inbox_text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .open_chat_inbox_text h6{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  .open_chat_inbox_text_users{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .open_chat_inbox_text_users span{
+    margin-left: 7px;
+  }
+  .open_chat_inbox_text_users span:nth-child(3){
+    color: rgb(252, 151, 168);
+  }
+  .open_chat_inbox_column:first-child img{
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+  }
+  .open_chat_inbox_column:last-child img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+  }
+  .open_chat_inbox_photo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 15px;
+  }
+  .open_chat_inbox_photo span{
+    background-color: rgba(128, 128, 128, 0.5);
+    height: 20px;
+    width: 70px;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 75px;
+    left: 15px;
+    color: whitesmoke;
+  }
+  .open_chat_inbox_column-heart i{
+    color: whitesmoke;
+    font-size: 12px;
+    margin-right: 6px;
+  }

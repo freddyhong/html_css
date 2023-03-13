@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - Cocoa Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="status_bar">
+      <div class="status_bar_column">
+        No Service
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status_bar_column">18:43</div>
+      <div class="status_bar_column">
+        100%
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen_header">
+      <h1 class="screen_header_title">More</h1>
+      <div class="screen_header_icons">
+        <span><i class="fas fa-search"></i></span>
+        <span><i class="fas fa-music"></i></span>
+        <span class="screen_header_icons">
+          <a href="setting.html">
+            <i class="fas fa-cog"></i>
+          </a>
+          <span class="screen_header_icons-cog badge2"></span>
+        </span>
+      </div>
+    </header>
+
+    <main class="main_screen more_screen">
+      <div class="user_component">
+        <div class="user_component_column">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/f/f2/Robert_Downey_Jr._as_Tony_Stark_in_Avengers_Infinity_War.jpg"
+            class="user_component_photo user_component_photo"
+          />
+          <div class="user_component_text">
+            <h4 class="user_component_title">Tony Stark</h4>
+            <h6 class="user_component_subtitle">
+              +82 10-7845-1635 <i class="fas fa-exclamation-circle"></i>
+            </h6>
+          </div>
+        </div>
+        <div class="user_component_column">
+          <i class="far fa-file-alt fa-2x"></i>
+        </div>
+      </div>
+      <div class="more_screen_icons">
+        <div class="more_screen_icons-icon">
+          <i class="far fa-calendar fa-2x"></i>
+          <span> Calander </span>
+        </div>
+        <div class="more_screen_icons-icon">
+          <i class="fas fa-folder-open fa-2x"></i>
+          <span> Talk Drive </span>
+        </div>
+        <div class="more_screen_icons-icon">
+          <i class="far fa-smile-wink fa-2x"></i>
+          <span> Emoticons </span>
+        </div>
+        <div class="more_screen_icons-icon">
+          <i class="fas fa-brush fa-2x"></i>
+          <span> Themes </span>
+        </div>
+      </div>
+      <div class="more_screen_icons">
+        <div class="more_screen_icons-icon">
+          <i class="fas fa-wrench fa-2x"></i>
+          <span> Account </span>
+        </div>
+        <div class="more_screen_icons-icon">
+          <i class="far fa-comments fa-2x"></i>
+          <span> Open Chat</span>
+        </div>
+      </div>
+      <div class="more_suggestion">
+        <header class="more_suggestion_header"><h1>Suggestions</h1></header>
+        <div class="more_suggestion_main">
+          <div class="more_suggestion_inbox">
+            <img
+              src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81DugevkxJL.jpg"
+            />
+            <span>Avengers PS4</span>
+          </div>
+          <div class="more_suggestion_inbox">
+            <img
+              src="https://cdn.marvel.com/content/1x/marvelvscapcominfinite_lob_crd_01.jpg"
+            />
+            <span>Marvel Superhero Game</span>
+          </div>
+          <div class="more_suggestion_inbox">
+            <img
+              src="https://www.gamespot.com/a/uploads/scale_medium/1197/11970954/2436961-image%20%281%29.jpeg"
+            />
+            <span>DC Universe PS4</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav_list">
+        <li class="nav_list_btn">
+          <a class="nav_link" href="friends.html"
+            ><i class="far fa-user fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav_list_btn">
+          <a class="nav_link" href="chats.html">
+            <span class="nav_notification">1</span>
+            <i class="far fa-comment fa-lg"></i>
+          </a>
+        </li>
+        <li class="nav_list_btn">
+          <a class="nav_link" href="search.html"
+            ><i class="fas fa-search fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav_list_btn">
+          <a class="nav_link" href="more.html">
+            <span class="nav_dot"></span>
+            <i class="fas fa-ellipsis-h fa-lg"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>Your Screen Is Too Big!!!</span>
+    </div>
+  </body>
+</html>

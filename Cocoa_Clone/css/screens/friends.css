@@ -1,0 +1,57 @@
+.friends_display-link{
+    background-color: rgba(231, 231, 231, 0.735);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+.friends_display-link i{
+    margin: 0px 12px;
+}
+.friends_display-link .fas{
+    color: rgba(192, 192, 192, 0.7);
+}
+.friends-screen_channel{
+    border-top: 2px solid rgba(183, 183, 183, 0.3);
+}
+.friends-screen_channel-header{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.5);
+}
+.friends-screen_friend{
+    height: 465px;
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll; 
+}
+.friend_component{
+    margin-bottom: 30px;
+}
+@keyframes hideSplashScreen{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+#splash_screen{
+    background-color: var(--yellow);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130px;
+    animation: hideSplashScreen 1s ease-in-out forwards;
+    animation-delay: 1s;
+}

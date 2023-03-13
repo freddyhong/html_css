@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Cocoa Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="status_bar">
+      <div class="status_bar_column">
+        No Service
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div id="status_bar_time" class="status_bar_column">18:43</div>
+      <div class="status_bar_column">
+        100%
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome_header">
+      <h1 class="welcome_header_title">Welcome to KakaoTalk</h1>
+      <p class="welcome_header_explain">
+        If you have a KakaoTalk Account, log in with your email or phone number.
+      </p>
+    </header>
+    <form action="friends.html" method="get" class="welcome_input">
+      <input
+        required
+        name="username"
+        class="welcome_input_id"
+        type="text"
+        placeholder="Email or Phone Number"
+      />
+      <input
+        required
+        name="password"
+        class="welcome_input_pass"
+        type="password"
+        placeholder="Password"
+      />
+      <input class="welcome_input_submit" type="submit" value="Log In" />
+      <a href="#">Find Kakao Account or Password</a>
+    </form>
+    <div id="no-mobile">
+      <span>Your Screen Is Too Big!!!</span>
+    </div>
+  </body>
+</html>

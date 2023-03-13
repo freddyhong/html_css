@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - Cocoa Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="status_bar">
+      <div class="status_bar_column">
+        No Service
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status_bar_column">18:43</div>
+      <div class="status_bar_column">
+        100%
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen_header">
+      <h1 class="screen_header_title">Chats</h1>
+      <div class="screen_header_icons">
+        <span><i class="fas fa-search"></i></span>
+        <span><i class="far fa-comment-dots"></i></span>
+        <span><i class="fas fa-music"></i></span>
+        <span
+          ><a href="setting.html"><i class="fas fa-cog"></i></a
+        ></span>
+      </div>
+    </header>
+
+    <main class="main_screen">
+      <a href="chat.html">
+        <div class="user_component">
+          <div class="user_component_column">
+            <img
+              src="https://www.redwolf.in/image/catalog/stickers/marvel-avengers-logo-sticker.jpg"
+              class="user_component_photo user_component_photo"
+            />
+            <div class="user_component_text">
+              <h4 class="user_component_title">Avengers</h4>
+              <h6 class="user_component_subtitle">this is for the subtitle</h6>
+            </div>
+          </div>
+          <div class="user_component_column">
+            <span class="user_component_time">17:22</span>
+            <span class="user_component_message badge">1</span>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav_list">
+        <li class="nav_list_btn">
+          <a class="nav_link" href="friends.html"
+            ><i class="far fa-user fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav_list_btn">
+          <a class="nav_link" href="chats.html">
+            <span class="nav_notification">1</span>
+            <i class="fas fa-comment fa-lg"></i>
+          </a>
+        </li>
+        <li class="nav_list_btn">
+          <a class="nav_link" href="search.html"
+            ><i class="fas fa-search fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav_list_btn">
+          <a class="nav_link" href="more.html">
+            <span class="nav_dot"></span>
+            <i class="fas fa-ellipsis-h fa-lg"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>Your Screen Is Too Big!!!</span>
+    </div>
+  </body>
+</html>
