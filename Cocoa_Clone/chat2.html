@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - Avengers</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+  </head>
+  <body id="chat_screen">
+    <div class="status_bar">
+      <div class="status_bar_column">
+        No Service
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status_bar_column">18:43</div>
+      <div class="status_bar_column">
+        100%
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen_header">
+      <i class="fas fa-chevron-left fa-lg"></i>
+      <h1 class="screen_header_title">Avengers</h1>
+      <div class="chat_icon">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main_screen">
+      <div class="chat_timestamp">Monday, March 13, 2023</div>
+      <div class="message_row">
+        <img
+          src="https://cdn.britannica.com/30/182830-050-96F2ED76/Chris-Evans-title-character-Joe-Johnston-Captain.jpg"
+        />
+        <div class="message_row_content">
+          <span class="message_person">Captain America</span>
+          <div class="message_info">
+            <span class="message_bubble"
+              >Hey Stark wanna go and get a cup of coffee rn?</span
+            >
+            <span class="message_time">16:42</span>
+          </div>
+        </div>
+      </div>
+      <div class="message_row message_row-own">
+        <div class="message_row_content">
+          <div class="message_info">
+            <span class="message_bubble">Ye sure why not</span>
+            <span class="message_time">11:40</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply_column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply_column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>Your Screen Is Too Big!!!</span>
+    </div>
+  </body>
+</html>
