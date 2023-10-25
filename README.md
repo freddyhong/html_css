@@ -1,5 +1,11 @@
-#Cocoa Clone 2023 Update
+Last Update April 2023
 
-Freddy's Portforlio
+Freddy's First HTML and CSS Project (Only Frontend)
 
-Html and CSS practice
+Kakao_Clone:
+
+Tried to clone the Korean SNS Application called "Kakaotalk"
+
+Song_Playlist:
+
+Tried to clone the Apple Music Interface
